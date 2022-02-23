@@ -81,8 +81,10 @@ const updateReportCard = function(reportCard, newGrade) {
     reportCard.lowestGrade = lowest;
     reportCard.highestGrade = highest;
     reportCard.averageGrade = avg
+    //return same report card
     return reportCard
 }
+//helper function to get average
 const getAvg = function(arr) {
     let sum = 0
     for(let num of arr) {
